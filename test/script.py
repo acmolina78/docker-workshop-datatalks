@@ -1,4 +1,4 @@
-from pathlib from Path
+from pathlib import Path
 
 current_dir = Path.cwd()
 current_file = Path(__file__).name

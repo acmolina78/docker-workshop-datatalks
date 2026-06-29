@@ -10,3 +10,8 @@ terminal bash: docker run -it --entrypoint=bash python:3.13.11-slim
 docker ps -a shows all docker instances
 docker ps -aq shows all docker instances id
 docker rm [id] destroys instance
+
+mapping volume to docker container
+docker run -it --entrypoint=bash -v $(pwd)/test:/app/test python:3.9.16-slim
+
+LO 32:26 -- data pipelines
