@@ -15,3 +15,9 @@ mapping volume to docker container
 docker run -it --entrypoint=bash -v $(pwd)/test:/app/test python:3.9.16-slim
 
 LO 32:26 -- data pipelines
+
+create virtualization with uv
+    pip install uv
+    uv init --python=3.13 creates new virtualization for pipeline
+    run commands in virtualization with 'uv run'
+
