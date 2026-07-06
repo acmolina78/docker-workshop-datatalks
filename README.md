@@ -21,3 +21,6 @@ create virtualization with uv
     uv init --python=3.13 creates new virtualization for pipeline
     run commands in virtualization with 'uv run'
 
+docker build
+docker run
+49:46 docker image is test:pandas
